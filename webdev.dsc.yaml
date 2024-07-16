@@ -14,7 +14,7 @@ properties:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: "Code"
       directives:
-        description: Install VisualStudio Code
+        description: Install Visual Studio Code
         allowPrerelease: true
         uselatest: true
       settings:
