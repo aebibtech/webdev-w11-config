@@ -253,6 +253,15 @@ properties:
         source: winget
         uselatest: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: "openvpnconnect"
+      directives:
+        description: Install OpenVPN Connect
+        allowPrerelease: true
+      settings:
+        id: OpenVPNTechnologies.OpenVPNConnect
+        source: winget
+        uselatest: true
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: vsPackage
       directives:
         description: Install Visual Studio 2022 Community
